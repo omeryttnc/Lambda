@@ -413,7 +413,7 @@ public class Grup_Calismasi_Lambda_2 {
         //Output Total : 1680.0 Total : 1680.0
 
     }
-    @Test
+    @Test(groups = "smoke")
         public void Joining(){
             // Convert String to Uppercase and join them using coma
             List<String> G7 = Arrays.asList("USA", "Japan", "France", "Germany", "Italy", "U.K.","Canada");

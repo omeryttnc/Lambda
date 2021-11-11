@@ -8,11 +8,11 @@ public class Person {
     public int age;
     public List<Integer>phoneNumber;
 
-//    public Person(String name, String surname, int age) {
-//        this.name = name;
-//        this.surname = surname;
-//        this.age = age;
-//    }
+    public Person(String name, String surname, int age) {
+        this.name = name;
+        this.surname = surname;
+        this.age = age;
+    }
 
     public Person(String name, String surname, int age, List<Integer> phoneNumber) {
         this.name = name;
