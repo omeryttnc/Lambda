@@ -35,6 +35,6 @@ public class test_1 {
         System.out.println();
         System.out.println(funLength.andThen(lengthTimesFour).apply("omer"));
 
-getTextFu.apply()
+//getTextFu.apply();
     }
 }

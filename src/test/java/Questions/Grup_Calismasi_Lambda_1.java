@@ -476,7 +476,7 @@ public class Grup_Calismasi_Lambda_1 {
         // System.out.println("newList = " + newList);
     }
 
-    @Test
+    @Test(groups = "smoke")
     public void numbers() {
         List<Integer> liste = new ArrayList<>();
         liste.add(12);
@@ -509,7 +509,7 @@ public class Grup_Calismasi_Lambda_1 {
         System.out.println("negativeNumbers = " + negativeNumbers);
     }
 
-    @Test
+    @Test(groups = "smoke")
     public void namesx() {
         List<String> list = new ArrayList<>();
         list.add("Ali");
