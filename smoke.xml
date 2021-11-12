@@ -5,12 +5,13 @@
         <groups>
 
             <run>
-                <include name="smoke"></include>
+                <include name="smoke"/>
             </run>
         </groups>
         <classes>
             <class name="Questions.Grup_Calismasi_Lambda_1"/>
             <class name="Questions.Grup_Calismasi_Lambda_2"/>
+            <class name="Questions.jenkins"/>
             <class name="Questions.Grup_Calismasi_Lambda_3">
 
             </class>
