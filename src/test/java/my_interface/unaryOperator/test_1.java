@@ -1,6 +1,5 @@
 package my_interface.unaryOperator;
 
-import jdk.dynalink.linker.LinkerServices;
 import org.testng.annotations.Test;
 
 import java.util.Arrays;
