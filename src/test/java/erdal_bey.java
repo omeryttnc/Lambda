@@ -153,14 +153,14 @@ public class erdal_bey {
         Optional<String> a = l_String.stream().filter(t -> t.length() > 1).findAny();
         System.out.println(a);
 
-        //dropwhile takewhile
-        System.out.println();
-        System.out.println(l_String);
-        System.out.println("dropwhile");
-        System.out.println();
-        l_String.stream().dropWhile(t -> t.length() < 4).forEach(erdal_bey::getPrint);
-        System.out.println("takewhile");
-        l_String.stream().takeWhile(t -> t.length() < 4).forEach(erdal_bey::getPrint);
+//        //dropwhile takewhile
+//        System.out.println();
+//        System.out.println(l_String);
+//        System.out.println("dropwhile");
+//        System.out.println();
+//        l_String.stream().dropWhile(t -> t.length() < 4).forEach(erdal_bey::getPrint);
+//        System.out.println("takewhile");
+//        l_String.stream().takeWhile(t -> t.length() < 4).forEach(erdal_bey::getPrint);
 
 
 
